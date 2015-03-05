@@ -1,0 +1,521 @@
+/*  Skyler IMD 2015 | www.skylyy.com  */
+
+body {
+    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+    background: center center #000;
+}
+
+.page-top {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.col-md-offset-2 {
+    position: relative;
+    min-height: 1px;
+}
+
+.pull-right {
+	float: right;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.row {
+	width: 100%;
+    background: transparent center;
+    margin: 0 auto;
+}
+
+.container {
+        width: 100%;
+        background-color: transparent;
+        height: auto;
+        text-align: center;
+        margin: 0 auto; 
+        vertical-align: center;
+    }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    margin: 0 0 35px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+a {
+    color: #4381ef;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #c70024;
+}
+
+.light {
+    font-weight: 400;
+}
+
+.navbar-custom {
+    margin-bottom: 0;
+    border-bottom: 2px solid rgba(255,255,255,.3);
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #000;
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 0px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+.navbar-custom a {
+    color: #777;
+}
+
+.navbar-custom .nav li.active {
+    outline: nonte;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+    outline: 0;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+/***************************main sections*************/
+
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    margin-bottom: 160px;
+    text-align: center;
+    color: #fff;
+    background: url(../img/trainyardsky.png) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.focus-section {
+    width: 100%;
+    height: auto;
+    margin-top: -150px;
+    padding: 250px 0;
+    color: #fff;
+    background: url(../img/headbg.png) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.social-section {
+    width: 100%;
+    padding: 250px 0;
+    height: auto;
+    margin-top: -150px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background: no-repeat bottom center scroll url(../img/skyjet.png);
+}
+
+/***************************************************intro480***************/
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro .intro-body .brand-heading {
+    font-size: 40px;
+}
+
+.intro .intro-body .intro-text {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+/*********************************************************
+				buttons 320/480
+*********************************************************/
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    border: 2px solid #ffffff;
+    border-radius: 35px;
+    padding-top: 8px;
+    padding-right: 8px;
+    font-size: 40px;
+    background: 0 0;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    color: #ddd;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn-circle:hover,
+.btn-circle:focus {
+    outline: 0;
+    color: #ffffff;
+    border: 2px solid #000000;
+    background: rgba(199,0,36,.3);
+}
+
+.btn-circle i.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+
+.btn-circle:hover i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn-default {
+    border: 2px double #c70024;
+    color: #000000;
+    border-radius: 25px;
+    height: 50px; 
+    width: 50px;
+    outline: 0;
+    padding: 7px;
+    font-size: 25px;
+    background: 0 0;
+    background-color: rgba(255,255,255,0.6);
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;   
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    border: 1px solid #000000;
+    outline: 0;
+    color: #fff;
+    background-color: #c70024;
+    -webkit-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.75);
+}
+
+ul.banner-social-buttons {
+    margin-top: 0;
+}
+
+.content-section {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+/**************************************************
+				main stuff 320/480
+**************************************************/
+
+#social, #photos, #contact2{
+        padding: 50px 0;
+        width: 100%;
+}
+
+/*****************************************************
+				320/480px above 
+*****************************************************/
+
+@-webkit-keyframes pulse {    
+    0 {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-moz-keyframes pulse {    
+    0 {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -moz-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+
+
+/************************************************************
+			767px media query
+************************************************************/
+
+@media(min-width:767px) {
+
+    .container {
+		width: 100%;
+        background-color: transparent;
+		height: auto;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;	
+		vertical-align: center;
+	}
+
+	.navbar {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .navbar a {
+        color: #dddddd;
+        -webkit-transition: all .4s ease-in-out;
+        -moz-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+
+    .navbar a:hover {
+        background-color: transparent;
+        border-bottom: solid 2px #c70024;
+        color: #ffffff;
+    }
+
+    .top-nav-collapse a {
+        color: #ddd;
+        -webkit-transition: all .4s ease-in-out;
+        -moz-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+        background-color: #000;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        border-bottom: 1px solid rgba(255,255,255,.3);
+        -webkit-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.75);
+        box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.75);
+    }
+
+    ul.banner-social-buttons li {
+        display: block;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons li:last-child {
+        margin-bottom: 0;
+    }
+
+    /********************************************intro*************/
+
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+
+    .intro .intro-body .brand-heading {
+        font-size: 80px;
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 25px;
+    }
+	
+	/************************************************
+				main stuff
+	************************************************/
+
+	 p {
+        margin: 0 0 35px;
+        font-size: 20px;
+        line-height: 1.6;
+	}
+
+	.content-section {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    }
+
+    #social, #photos, #contact2 {
+    width: 100%;
+    padding: 200px 0;
+    margin-top: 150px;
+	}
+
+    /*************************************Footerendingstuff****/
+
+	footer {
+	    padding: 85px 0;
+	}
+
+	footer p {
+	    margin: 0;
+	}
+
+	::-moz-selection {
+	    text-shadow: none;
+	    background: #fcfcfc;
+	    background: rgba(255,255,255,.2);
+	}
+
+	::selection {
+	    text-shadow: none;
+	    background: #fcfcfc;
+	    background: rgba(255,255,255,.2);
+	}
+
+	img::selection {
+	    background: 0 0;
+	}
+
+	img::-moz-selection {
+	    background: 0 0;
+	}
+
+	body {
+	    webkit-tap-highlight-color: rgba(255,255,255,.2);
+	}
+)
+
+/*************************************************************
+				992px
+*************************************************************/
+
+@media(min-width:992px){
+	.container {
+		width: 100%;
+	}
+}
+
+/************************************************************
+				1170px maybe it should be 1199?
+************************************************************/
+
+@media(min-width:1200px) {
+    ul.banner-social-buttons {
+        margin-top: 10px;
+    }
+
+    .container {
+    	width: 100%;
+    }
+
+    #social, #photos, #contact2 {
+    width: 100%;
+    padding: 200px 0;
+    height: auto;
+    margin-top: 150px;
+	}
+}
+
+/**********possibly 1199px taken from original 480.. 
+480 is done. maybe this is 480?********
+
+.content-section {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+#socia, #contact, #contact2 {
+    width: 100%;
+    padding: 200px 0;
+    margin-top: 150px;
+}
+******************/
