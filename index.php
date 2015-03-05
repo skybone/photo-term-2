@@ -6,11 +6,11 @@
 	<title>Sky Lyy | Photography</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
 
-	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/sky_photo.css">
+    <link rel="stylesheet" href="../css/sky_photo.css">
 
-	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel='stylesheet'>
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel='stylesheet'>
 	
@@ -182,13 +182,13 @@
     </footer>
 
 
-<script src="js/jquery.min.js"></script>
+<script src="../js/jquery.min.js"></script>
 
-<script src="js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
 
-<script src="js/jquery.easing.min.js"></script>
+<script src="../js/jquery.easing.min.js"></script>
 
-<script src="js/photo.js"></script>
+<script src="../js/photo.js"></script>
 
 </body>
 </html>
